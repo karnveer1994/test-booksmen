@@ -1,0 +1,272 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ant-layout {
+  background-color: #fff;
+}
+
+.App-header {
+  background-color: #fff;
+  color: #000;
+  height: 72px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+}
+
+.footer {
+  background-color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+  padding: 24px 150px;
+}
+
+.anticon-shopping-cart {
+  font-size: 18px;
+  color: #0b8235;
+}
+
+main {
+  padding: 24px 150px;
+}
+
+.footer .main div:first-child {
+  float: left;
+}
+
+.footer .main div:last-child {
+  float: right;
+}
+
+.footer h1 {
+  color: #0b8235;
+}
+
+.footer .main {
+  color: gray;
+}
+
+.footer .main a {
+  color: gray;
+}
+
+.space-align-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.space-align-block {
+  margin: 8px 4px;
+  padding: 4px;
+  text-align: left;
+  flex: none;
+}
+
+.card1 .ant-card-meta{
+  position: relative;
+  bottom: 280px;
+  background-color: black;
+  opacity: 0.7;
+  height: 200px;
+  width: 39%;
+  border-radius: 5px;
+  padding-left: 15px;
+  left: -2%;
+  padding-top: 10px;
+}
+
+.ant-card-meta-title, .ant-card-meta-description {
+  color: #fff;
+  text-align: left;
+  padding: 0 50px 0 20px;
+}
+
+.right-content {
+  position: relative;
+  bottom: 100px;
+  left: 45%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.right-content p {
+  font-size: 16px;
+}
+
+.ant-card-meta-description button, .ant-card-meta-description button:hover {
+  background-color: #0b8235;
+  border: 1px solid #0b8235;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.ant-card-meta-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ant-card-meta-description {
+  font-size: 16px;
+}
+.space-align-block:first-child {
+  width: 21%;
+}
+
+.space-align-block {
+  width: 18%;
+}
+
+.space-align-block img {
+  width: 100px;
+  margin-top: 5px;
+}
+
+main .ant-space {
+  width: 100%;
+}
+
+.card1 .ant-card-cover img {
+  border-radius: 30px;
+  height: 350px;
+}
+
+.card2 .ant-card-cover img {
+  border-radius: 30px 30px 0 0;
+  height: 350px;
+}
+
+.card2 .ant-card-body {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0 0 30px 30px;
+}
+
+.card1 .ant-card-body {
+  max-height: 0;
+}
+
+.card2 .card-body {
+  display: flex;
+}
+
+.card2 h3 {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.card-body button, .card-body button:hover {
+  position: relative;
+  left: 60%;
+  background-color: #0b8235;
+  border: 1px solid #0b8235;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%;
+  z-index: 2;
+}
+
+.card-body .desc {
+  width: 230px;
+}
+
+.site-page-header {
+  font-weight: bold;
+}
+
+.ant-input-search input, .ant-input-search input::placeholder {
+  padding: 15px 10px;
+  font-size: 18px;
+  color: #000;
+}
+
+.ant-input-search {
+  width: 100%;
+}
+
+.ant-input-group-addon {
+  border: none;
+  background-color: #fff;
+}
+
+.ant-input-group-addon button {
+  border: none;
+}
+
+.search-filter {
+  width: 100%;
+}
+
+.ant-radio-group {
+  margin-top: 10px;
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+}
+
+.ant-space-vertical {
+  position: relative;
+  bottom: 140px;
+}
+
+.ad-search {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.ant-radio-group label {
+  color: #fff;
+}
+
+.ant-input-search .anticon-search {
+  color: #0b8235;
+  font-size: 18px;
+  margin: 10px 14px 0px 0px;
+  font-weight: bold;
+}
+
+a {
+  color: #333;
+}
+.top-content {
+  width: 100%;
+  background-image: url('door.jpg');
+  height: 450px;
+  margin-bottom: 50px;
+  background-size: contain;
+  position: relative;
+  right: 13%;
+  width: 126%;
+}
+
+.top-content .content {
+  position: relative;
+  padding: 0 33%;
+  bottom: 67%;
+}
+
+.top-content h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+}
